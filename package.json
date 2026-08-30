@@ -1,0 +1,10 @@
+{
+  "name": "x402-payer-skill",
+  "private": true,
+  "type": "module",
+  "description": "Agent skill: pay for x402 (HTTP 402) tool calls with USDC via EIP-3009 and verify signed receipts.",
+  "dependencies": {
+    "@noble/curves": "^1.4.0",
+    "@noble/hashes": "^1.4.0"
+  }
+}
